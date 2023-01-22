@@ -1,0 +1,72 @@
+body {
+  padding-top: 100px;
+  background: #EFF5F5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+header figure{
+  width: 160px;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+header img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+
+header h1, header h3 {
+  margin: 0;
+}
+
+.skills {
+  margin-top: 15px;
+}
+
+h1{
+  font-weight: 700;
+  color: #EB6440;
+  font-size: 3.5rem;
+}
+
+h3{
+  font-size: 2rem;;
+}
+
+a {
+  color: #EB6440;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    padding-top: 50px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 50px;
+    display: block;
+    align-items: center;
+  }
+  header figure{
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  h3{
+    font-size: 2rem;
+  }
+  .row .column-50, 
+  .row .column-offset-25{
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+}
